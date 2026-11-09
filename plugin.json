@@ -1,0 +1,17 @@
+{
+  "id": "roamdial",
+  "name": "RoamDial 电台",
+  "version": "0.1.0",
+  "minAppVersion": "0.1.8",
+  "main": "index.js",
+  "playback": "stream",
+  "permissions": {
+    "network": ["roamdial.com"]
+  },
+  "navigation": [
+    { "title": "发现", "builtin": "home" },
+    { "title": "分类", "page": "genres", "icon": "chart" },
+    { "title": "国家地区", "page": "countries", "icon": "search" },
+    { "title": "随便听听", "page": "random", "icon": "radio" }
+  ]
+}
